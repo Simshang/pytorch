@@ -199,7 +199,7 @@ class CMake:
 
         base_dir = os.path.dirname(os.path.dirname(os.path.dirname(
             os.path.abspath(__file__))))
-        install_dir = os.path.join(base_dir, "torch")
+        install_dir = os.path.join(base_dir, "libtorch")
 
         _mkdir_p(install_dir)
         _mkdir_p(self.build_dir)
