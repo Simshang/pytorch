@@ -2,7 +2,18 @@
 
 --------------------------------------------------------------------------------
 
+# how to build libtorch
+
+
+
+1. mkdir `build`
+2. `python ../tools/build_libtorch.py` build libs
+3. setting edit : `vim tools/setup_helpers/cmake.py`
+
+
+
 PyTorch is a Python package that provides two high-level features:
+
 - Tensor computation (like NumPy) with strong GPU acceleration
 - Deep neural networks built on a tape-based autograd system
 
